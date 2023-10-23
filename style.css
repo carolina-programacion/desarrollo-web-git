@@ -313,6 +313,7 @@ main h3 {
 
 .direccion{
     display: flex;
+    flex-wrap: wrap;
     margin: 40px;
     justify-content:space-around
 
@@ -321,6 +322,7 @@ main h3 {
 }
 
 .direccion p{
+    display: flex;
     align-self: center;
 }
 
