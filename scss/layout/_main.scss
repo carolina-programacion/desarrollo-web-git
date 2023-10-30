@@ -1,0 +1,40 @@
+
+$font-coder: Arial, Helvetica, sans-serif;
+
+main {
+    h1 {
+        @extend h1;
+    }
+
+    h2 {
+        @extend h1;
+    }
+
+    h3 {
+        @extend h1;
+    }
+
+    h4 {
+        @extend h1;
+    }
+
+    p {
+        font-family: $font-coder;
+        text-align: justify;
+
+        ul {
+            font-family: $font-coder;
+            text-align: justify;
+
+            li {
+                font-family: $font-coder;
+                text-align: justify;
+            }
+        }
+    }
+
+    div {
+        font-family: $font-coder;
+    }
+
+}

@@ -1,0 +1,20 @@
+
+@mixin buton-styles ($bg-color, $text-color, $ancho, $time){
+    background-color: $bg-color;
+    color: $text-color;
+    width: $ancho;
+    transition: $time;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: violet;
+    }
+}
+
+.boton-uno{
+    margin-left: 25px;
+    @include buton-styles(orange, white, 150px, 0.3s )
+}

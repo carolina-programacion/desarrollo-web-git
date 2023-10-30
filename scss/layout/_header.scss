@@ -1,0 +1,38 @@
+header {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 5px solid orangered;
+    flex-wrap: wrap;
+
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: crimson;
+        font-weight: bolder;
+    }
+
+    img {
+        width: 9rem;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            list-style-type: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            li {
+                margin: 5px;
+
+                a {
+                    color: darkred;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+
+}
