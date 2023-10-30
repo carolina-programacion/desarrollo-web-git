@@ -1,5 +1,6 @@
 header {
     background-color: orange;
+    background-image: linear-gradient(to top, orange, coral );
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,6 +12,7 @@ header {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: crimson;
         font-weight: bolder;
+        transform: translate(15px, -30px);
     }
 
     img {
@@ -18,6 +20,7 @@ header {
     }
 
     nav {
+
         ul {
             display: flex;
             list-style-type: none;

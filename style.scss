@@ -1,5 +1,6 @@
 header {
   background-color: orange;
+  background-image: linear-gradient(to top, orange, coral);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,6 +12,7 @@ header p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: crimson;
   font-weight: bolder;
+  transform: translate(15px, -30px);
 }
 header img {
   width: 9rem;
@@ -39,7 +41,9 @@ body {
 
 footer {
   border-top: 2px solid orangered;
+  padding: 30px;
   background-color: orange;
+  background-image: linear-gradient(to top, orange, coral);
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -181,6 +185,7 @@ main div {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid orangered;
+  background-image: linear-gradient(to top, orange, coral);
   margin: 60px;
   background-color: darkorange;
   padding: 20px;
@@ -256,6 +261,34 @@ h1, main h1, main h2, main h3, main h4 {
 }
 .boton-uno:hover {
   background-color: violet;
+}
+
+.nutricion-one {
+  background-image: linear-gradient(to top, orange, coral);
+}
+
+header {
+  background-image: linear-gradient(to top, orange, coral);
+}
+
+footer {
+  background-image: linear-gradient(to top, orange, coral);
+}
+
+header p {
+  transform: translate(15px, -30px);
+}
+
+.icono-whatsapp {
+  cursor: pointer;
+  width: 3rem;
+  position: fixed;
+  right: 25px;
+  bottom: 10px;
+  transition: all 1s;
+}
+.icono-whatsapp:hover {
+  transform: rotate(360deg);
 }
 
 /*# sourceMappingURL=style.scss.map */

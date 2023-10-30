@@ -1,0 +1,19 @@
+
+header{
+    p{
+        transform: translate(15px, -30px);
+    }
+}
+
+
+.icono-whatsapp{
+    cursor: pointer;
+    width: 3rem;
+    position: fixed;
+    right: 25px;
+    bottom: 10px;
+    transition: all 1s;
+    &:hover{
+        transform: rotate(360deg);
+    }
+}
